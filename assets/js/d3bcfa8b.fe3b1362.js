@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksignalzen_docs=self.webpackChunksignalzen_docs||[]).push([[50],{6605:e=>{e.exports=JSON.parse('{"title":"API","slug":"/category/api","permalink":"/docs/category/api","navigation":{"previous":{"title":"Basics","permalink":"/docs/email/basics"},"next":{"title":"Authentication","permalink":"/docs/api/authentication"}}}')}}]);
