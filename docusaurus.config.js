@@ -60,6 +60,7 @@ const config = {
         logo: {
           alt: 'SignalZen logo',
           src: 'img/signalzen-logo-512x512.png',
+          href: 'https://signalzen.com'
         },
         items: [
           {
