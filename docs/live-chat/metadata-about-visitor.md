@@ -50,3 +50,9 @@ SignalZen.pushUserData({
   'some custom attribute': 'your visitor custom attribute'
 })
 ```
+
+:::note
+
+Please change `YOUR_PUBLIC_TOKEN` to the Public Token that is given in the Integration page on the Console.
+
+:::

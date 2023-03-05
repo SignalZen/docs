@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Getting started
 ## What is SignalZen?
 
 It's a tool for providing online Customer Support. SignalZen support 2 channels for incoming chats
@@ -17,7 +17,7 @@ Both of the channels create chat sessions on SignalZen side. Your team can be in
 
 SignalZen value proposal is allowing for teams to use their internal communication tool for dealing with Customer Support matters from the same platform (Slack or MS Teams).
 
-## Getting Started
+## Sign up
 
 Get started by **creating a new account on the [Console](https://console.signalzen.com/sign-up/)**.
 

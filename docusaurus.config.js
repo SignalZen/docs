@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'SignalZen Docs',
   tagline: 'Simple, light and easy for your team productivity',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://docs.signalzen.com',
@@ -39,10 +39,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarCollapsed: false,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,7 +52,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.png',
       navbar: {
         title: 'SignalZen',
         logo: {
@@ -63,6 +60,26 @@ const config = {
           src: 'img/signalzen-logo-512x512.png',
         },
         items: [
+          {
+            href: '/docs/getting-started',
+            label: 'Getting Started',
+            position: 'left',
+          },
+          {
+            href: '/docs/category/live-chat',
+            label: 'Live Chat widget',
+            position: 'left',
+          },
+          {
+            href: '/docs/category/email',
+            label: 'Email',
+            position: 'left',
+          },
+          {
+            href: '/docs/category/api',
+            label: 'API',
+            position: 'left',
+          },
           {
             href: 'https://github.com/SignalZen',
             label: 'GitHub',
@@ -73,15 +90,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Docs',
-                to: '/docs/intro',
-              },
-            ],
-          },
           {
             title: 'Community',
             items: [
@@ -102,6 +110,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'Homepage',
+                to: 'https://signalzen.com',
+              },
               {
                 label: 'Blog',
                 to: 'https://signalzen.com/blog/',

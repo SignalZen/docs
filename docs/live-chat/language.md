@@ -15,4 +15,8 @@ var _sz = {
 var _sz=_sz||{};_sz.appId="YOUR_PUBLIC_TOKEN",function(){var e=document.createElement("script");e.src="https://cdn.signalzen.com/signalzen.js",e.setAttribute("async","true"),document.documentElement.firstChild.appendChild(e);var t=setInterval(function(){"undefined"!=typeof SignalZen&&(clearInterval(t),new SignalZen(_sz).load())},10)}();
 </script>
 ```
+:::note
+
 Please change `YOUR_PUBLIC_TOKEN` to the Public Token that is given in the Integration page on the Console.
+
+:::

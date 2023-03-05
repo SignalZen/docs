@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    img: 'wizard.png',
     description: (
       <>
         SignalZen was designed for quick setup that is done through Integration Wizards on the Console.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    img: 'customer-service.png',
     description: (
       <>
         The main Customer Support channels for online business are Live Chat and Email. We have you covered for that!
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    img: 'atom.png',
     description: (
       <>
         The Live Chat widget offered by SignalZen is coded in React and is working without an iframe. This makes your website running without the loss of site loading speed. The <strong>first chunk of the widget weights only around 200KB</strong>.
@@ -32,11 +32,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({img, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <div className="text--center" style={{ marginBottom: "20px" }}>
+        <img src={require(`@site/static/img/${img}`).default} alt={title} width="200" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
