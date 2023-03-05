@@ -47,7 +47,9 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    './docusaurus-plugin-signalzen/src',
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
