@@ -79,6 +79,11 @@ const config = {
             position: 'left',
           },
           {
+            href: '/docs/category/webhooks',
+            label: 'Webhooks',
+            position: 'left',
+          },
+          {
             href: '/docs/category/api',
             label: 'API',
             position: 'left',
