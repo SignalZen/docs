@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksignalzen_docs=self.webpackChunksignalzen_docs||[]).push([[914],{2316:s=>{s.exports=JSON.parse('{"title":"Webhooks","slug":"/category/webhooks","permalink":"/docs/category/webhooks","navigation":{"previous":{"title":"Errors","permalink":"/docs/api/errors"},"next":{"title":"Basics","permalink":"/docs/webhooks/basics"}}}')}}]);
