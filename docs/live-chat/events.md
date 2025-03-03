@@ -18,6 +18,9 @@ This event is called when a visitor sends a chat message. The event metadata con
 ## signalzen.chatStarted
 This event is called when a visitor is created on our system, just after the first message. The event metadata contains user information which you can check yourself while dealing with the implementation.
 
+## signalzen.onlineStatusChange
+This event is called when a Live Chat widget gets initialized or online status of the widget changes. Please remember, that online status can be forced by the antenna menu on the Console. The event metadata contains online/offline operators information as well as the status property.
+
 ## Real world example
 
 Let's say you have a webpage where you need to react somehow when the widget collapse event happens. In this case, you need to put an event listener in your code and wait for the event to happen. Once the event happens, you can execute appropriate your own JS code. See the example on the right of this page. Be aware, that the metadata is contained in the listener function argument, under the `.detail` scope.
