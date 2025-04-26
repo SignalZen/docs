@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksignalzen_docs=self.webpackChunksignalzen_docs||[]).push([[720],{6697:e=>{e.exports=JSON.parse('{"title":"Email","slug":"/category/email","permalink":"/docs/category/email","navigation":{"previous":{"title":"Events","permalink":"/docs/live-chat/events"},"next":{"title":"Basics","permalink":"/docs/email/basics"}}}')}}]);
