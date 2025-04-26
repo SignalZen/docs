@@ -6,6 +6,9 @@ sidebar_position: 12
 
 We support multiple events that come with metadata about each of them. This could be used for an advanced integration if you want to know in your JavaScript implementation when the chat is opened, a message is received or sent. Let's start with the events list and wrap up with a single example how to catch an event.
 
+## signalzen.ready
+This event is called when the live chat widget is fully loaded and `SignalZen` JavaScript API becomes available.
+
 ## signalzen.collapse
 This event is called when the chat is expanded or suspended and by capturing it, you can get an object with key `status` which will return the action nature. Currently, the status value can be `opened` or `closed`.
 
